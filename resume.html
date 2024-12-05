@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Funnel+Display:wght@300..800&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Anton", sans-serif;
+        }
+        body{
+            background-image: url(Untitled.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box{
+            width: 70%;
+            height: auto;
+            margin: auto;
+            background-color: rgb(65, 65, 65);
+            margin-top: 8vh;
+        }
+        .inforesume > p{
+            font-family: "Funnel Display", sans-serif;
+        }
+        .Information{
+            display: block;
+        }
+        .Information .Clicked{
+            display: none;
+        }
+        .Academic{
+            display: none;
+        }
+        .Academic .Clicked{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="Information">
+            <div class="row">
+                <div class="col-1 ms-3 rounded text-center border border-light">
+                    <div class="fs-3 fw-bold text-info mt-5">FA</div>
+                    <div class="text-danger fs-3">IGS</div>
+                </div>
+                <div class="col-4 Informa">
+                    <div class="card text-bg-dark border border-light">
+                        <img src="myfoto.jpg" class="card-img"  alt="...">
+                        <div class="card-img-overlay text-center">
+                          <h1 class="card-title fw-bold textname">Felix Alfinson</h1>
+                          <p class="card-text text-info">Student</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col me-3 resume border border-light rounded Informa">
+                    <h1 class="text-light fw-bold text-center mt-3">Resume!</h1>
+                    <div class="row">
+                        <div class="col inforesume">
+                            <p class="text-info ms-3 mt-5 fw-normal">New to Coding</p>
+                            <p class="text-light ms-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio deserunt enim aliquam reprehenderit voluptatem iste distinctio alias consequatur asperiores incidunt quaerat, ipsam excepturi assumenda. Natus quo reprehenderit ad rerum assumenda.</p>
+                        </div>
+                        <div class="col">
+                            <h1 class="text-light text-center"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-alexa" viewBox="0 0 16 16">
+                                <path d="M7.996 0A8 8 0 0 0 0 8a8 8 0 0 0 6.93 7.93v-1.613a1.06 1.06 0 0 0-.717-1.008A5.6 5.6 0 0 1 2.4 7.865 5.58 5.58 0 0 1 8.054 2.4a5.6 5.6 0 0 1 5.535 5.81l-.002.046-.012.192-.005.061a5 5 0 0 1-.033.284l-.01.068c-.685 4.516-6.564 7.054-6.596 7.068A7.998 7.998 0 0 0 15.992 8 8 8 0 0 0 7.996.001Z"/>
+                            </svg> SKills </h1>
+                            <h6 class="text-light">Web Develepmont <span class="text-info">4%</span></h6>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 4%"></div>
+                            </div>        
+                            <h6 class="text-light mt-3">C++ <span class="text-info">1%</span></h6>
+                            <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                                <div class="progress-bar" style="width: 1%"></div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h1 class="text-light ms-3"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                                <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783"/>
+                              </svg> Education</h1>
+                              <div id="carouselExampleCaptions" class="carousel slide">
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="IGSmayor.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                      <h5 class="text-danger">IGS</h5>
+                                      <p>Mayor Ruslan</p>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="Veteranigs.png" class="d-block w-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5 class="text-danger">IGS</h5>
+                                      <p>Veteran</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                              </div>
+                        </div>
+                        <div class="col text-light">
+                            <h1>SD IGS</h1>
+                            <p class="text-info">6 Tahun</p>
+                            <h1>SMP IGS</h1>
+                            <p class="text-info">3 Tahun</p>
+                            <h1>SMA IGS</h1>
+                            <p class="text-info">Sampai Kuliah</p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <script>
+        document.getElementById("buttonsInfo").addEventListener('click', function() {
+            if(Element.classList.contains("Clicked")){
+                Element.classList.remove("Clicked");
+            }
+        })
+        document.getElementById("buttonsAca").addEventListener('click', function(){
+            document.getElementById('Information').classList.toggle('Clicked');
+            document.getElementById('Academic').classList.toggle('Clicked');
+        })
+    </script>
+</body>
+</html>
